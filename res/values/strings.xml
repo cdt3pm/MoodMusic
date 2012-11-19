@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">MoodMusic</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Main</string>
+    <string name="rate_song">RateSong</string>
+    <string name="songs_from_mood">SongsFromMood</string>
+    <string name="your_vote">Your Vote:</string>
+    <string name="vote">Vote</string>
+
+</resources>

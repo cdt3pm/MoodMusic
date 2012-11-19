@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <GridLayout
+        android:layout_width="1302dp"
+        android:layout_height="match_parent"
+        android:columnCount="5" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="282dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnSpan="2"
+            android:layout_gravity="left"
+            android:layout_row="1"
+            android:text="Let&apos;s Set the Mood"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/createButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="left"
+            android:layout_row="2"
+            android:text="Create Mood" />
+
+        <Button
+            android:id="@+id/findButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="125dp"
+            android:layout_column="3"
+            android:layout_gravity="left"
+            android:layout_row="2"
+            android:text="Find Mood" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="327dp"
+            android:layout_height="64dp"
+            android:layout_column="3"
+            android:layout_gravity="left"
+            android:layout_row="3"
+            android:text="Find a mood is for you to select a color and get into that mood. Click the button, select a color, and enjoy!" />
+
+        <Space
+            android:layout_width="102dp"
+            android:layout_height="1dp"
+            android:layout_column="0"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="62dp"
+            android:layout_column="0"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="76dp"
+            android:layout_column="0"
+            android:layout_row="1" />
+
+        <Space
+            android:layout_width="161dp"
+            android:layout_height="1dp"
+            android:layout_column="1"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="83dp"
+            android:layout_height="1dp"
+            android:layout_column="2"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="72dp"
+            android:layout_height="1dp"
+            android:layout_column="3"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="704dp"
+            android:layout_height="1dp"
+            android:layout_column="4"
+            android:layout_row="0" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="93dp"
+            android:layout_column="0"
+            android:layout_row="2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="340dp"
+            android:layout_height="64dp"
+            android:layout_column="1"
+            android:layout_gravity="left"
+            android:layout_row="3"
+            android:text="Create Mood allows you to listen to music and set your own color mood with the song or playlist. Click the button to get started and set your mood" />
+
+        <Space
+            android:layout_width="100dp"
+            android:layout_height="464dp"
+            android:layout_column="1"
+            android:layout_row="3" />
+    </GridLayout>
+
+</LinearLayout>

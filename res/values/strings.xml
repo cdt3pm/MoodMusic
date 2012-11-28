@@ -8,5 +8,7 @@
     <string name="songs_from_mood">SongsFromMood</string>
     <string name="your_vote">Your Vote:</string>
     <string name="vote">Vote</string>
+    <string name="search">Search</string>
+    <string name="search_hint">E.g. Call Me Maybe</string>
 
 </resources>
